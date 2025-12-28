@@ -1,0 +1,15 @@
+### 1. Criar um Produto
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name": "Camiseta Polo Preta",
+  "sku": "POLO-001",
+  "costPrice": 25.50,
+  "salePrice": 59.90,
+  "stock": 100,
+  "minStock": 10
+}
+
+### 2. Listar Produtos
+GET http://localhost:3001/products

@@ -1,0 +1,9 @@
+cd ..
+
+git init
+git branch -M main
+git remote add origin https://github.com/VNGato/sistema-estoque.git
+git add .
+git commit -m "Mudei o nome frontend da barra no navegador"
+
+git push -u origin main --force

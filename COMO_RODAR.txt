@@ -1,0 +1,51 @@
+📝 RESUMO DE COMANDOS: SISTEMA DE ESTOQUE
+
+1. SE BAIXOU O PROJETO DE NOVO (Configuração Inicial)
+
+Faça isso apenas na primeira vez que baixar do GitHub ou se formatar o PC.
+
+No Terminal (Pasta backend):
+
+npm install (Baixa as bibliotecas)
+CRIAR ARQUIVO .env: Coloque a senha do Neon (DATABASE_URL="...") dentro dele.
+npx prisma generate (Cria a conexão do banco - Essencial)
+
+No Terminal (Pasta frontend):
+
+1. npm install (Baixa as bibliotecas)
+2. CRIAR ARQUIVO .env: Coloque a senha do Neon (DATABASE_URL="...") dentro dele.
+3. npx prisma generate (Cria a conexão do banco - Essencial)
+
+No Terminal (Pasta frontend):
+
+1. npm install (Baixa as bibliotecas do site)
+
+2. PARA LIGAR O SISTEMA (Dia a Dia)
+
+Sempre use dois terminais separados.
+
+Terminal 1: Ligar o Cérebro (Backend)
+
+(Espere aparecer o 🔥)
+
+Terminal 2: Ligar a Tela (Frontend)
+
+cd frontend
+npm run dev
+
+(Segure Ctrl e clique no link http://localhost:5173)
+
+⚠️ DICA DE OURO:
+Se der erro de "prisma client not initialized", rode o comando npx prisma generate dentro da pasta backend e tente ligar de novo.
+
+Pronto! É só isso que você precisa. 🚀
+
+
+Sites:
+
+vercel.com
+https://vercel.com/login
+neon.com
+https://neon.com
+render.com
+https://render.com
